@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css.css" />
+</head>
+
+<body>
+
+    <div class="box">
+
+        <fieldset>
+            <div class="titulo">
+                <!--prineira parte-->
+                <h1 id="title">Formulário de Cadastro</h1>
+
+                <!--segunda parte-->
+                <p id="description">coloque suas informações abaixo</p>
+
+            </div>
+            <!--terceira parte-->
+            <form id="survey-form">
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend><b>Fórmulário de Clientes</b></legend>
+            <br><br>
+            <!--quarta parte-->
+            <!--label 1-->
+
+            <div class="inputbox">
+                <label id="name-label" for="name">
+                    <input type="text" name="name" id="name" class="inputUser" required placeholder="nome"> Seu nome
+                </label>
+            </div>
+            <br><br>
+            <!--quinta parte-->
+            <!--label 2-->
+
+
+            <div class="inputbox">
+                <label id="email-label" for="email">
+                    <input type="email" id="email" name="email" class="inputUser" required placeholder="email"> Seu
+                    email
+                </label>
+
+            </div>
+            <br><br>
+            <!--sexta parte-->
+            <!--label 3-->
+
+            <div class="inputbox">
+                <label id="number-label" for="number">
+                    <input type="number" id="number" name="number" value="inputUser" class="inputUser" min="10"
+                        max="100" required placeholder="idade"> Sua idade
+                </label>
+            </div>
+            <br><br>
+            <!--parte 12-->
+            <!--lista com varias opçoes -->
+
+            <div class="divop0">
+
+                <p>Estado civil</p>
+                <select name="selecionar" id="dropdown">
+
+                    <option value="umu1">solteiro</option>
+                    <option value="umu2">casado</option>
+                    <option value="umu3">separado</option>
+                    <option value="umu4">divorciado</option>
+                    <option value="umu5">viúvo</option>
+
+                </select>
+            </div>
+            <br><br>
+            <!--parte 13 names-->
+            <div class="divra1">
+                <p>gênero </p>
+                <input type="radio" name="marca" value="bolinha1">masculino
+                <input type="radio" name="marca" value="bolinha1">feminino
+                <input type="radio" name="marca" value="bolinha1">outro
+
+            </div>
+            <br><br>
+
+            <div class="divche">
+                <p>cursos que você fez</p>
+                <!--parte 14-->
+                <input type="checkbox" value="caixinhaAtiva1" name="check1"> Administração
+                <input type="checkbox" value="caixinhaAtiva2" name="check2">Ciências Sociais
+                <input type="checkbox" value="caixinhaAtiva3" name="check2">Engenharia
+                <input type="checkbox" value="caixinhaAtiva4" name="check2">Informação e Tecnologia
+                <input type="checkbox" value="caixinhaAtiva4" name="check2">outro
+            </div>
+            <br><br>
+            <div class="divtext">
+                <p>O que é um programador?</p>
+                <textarea name="" id="texxt" cols="30" rows="10">
+
+                    O que é um programador? Os programadores são profissionais que atuam em tudo o que envolve softwares, bancos de dados e aplicativos de celular. 
+                    Geralmente o programador atua de forma individual e precisa dominar pelo menos uma linguagem de programação.
+        </textarea>
+            </div>
+            <br><br>
+            <!--fazer os input funcionarem-->
+            <button type="submit" id="submit">enviar</button>
+
+        </fieldset>
+        </form>
+
+    </div>
+</body>
+
+</html>

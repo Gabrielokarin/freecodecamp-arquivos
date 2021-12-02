@@ -1,0 +1,16 @@
+justify-content serve para itens na horizontal .
+
+align-items serve para coisas na vertical .
+
+flex-direction. Esta propriedade CSS define a direção.
+
+ order podemos aplicar a propriedade order para itens individuais. 
+
+ align-self seus valores são usados para o item específico.
+
+As duas propriedades flex-direction e flex-wrap são usadas tão frequentemente juntas que uma 
+propriedade abreviada flex-flow foi criada para combiná-las.
+
+Isso pode ser confuso, mas align-content determina o espaçamento entre linhas,
+ enquanto align-items determina como as linhas como um todo são alinhadas dentro do container.
+ Quando há só uma linha, align-content não tem nenhum efeito.

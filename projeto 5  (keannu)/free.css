@@ -1,0 +1,109 @@
+body {
+
+
+
+    background: black;
+
+}
+
+
+#main {}
+
+#title {
+    display: flex;
+    justify-content: center;
+
+    color: #a9a9a9;
+    position: relative;
+    top: 20px;
+
+
+
+
+}
+
+
+#image {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+
+
+
+    border-color: #a9a9a9;
+    border-radius: 1%;
+    border-style: solid;
+    border-width: 2px;
+
+
+}
+
+#img-caption {
+
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+
+    line-height: 30px;
+
+    font-size: 13px;
+    font-family: Gill Sans, sans-serif;
+
+}
+
+
+#tribute-info {
+    display: block;
+    margin: auto;
+
+    max-height: auto;
+    max-height: auto;
+    width: 50em;
+
+    background: #a9a9a9;
+
+
+    font-size: 17px;
+    font-family: Gill Sans, sans-serif;
+
+    border-color: #a9a9a9;
+    border-radius: 5%;
+    border-style: solid;
+    border-width: 2px;
+
+    background: white;
+
+
+    /**/
+
+    max-width: 100%;
+    height: auto;
+
+    padding: 29px;
+
+
+    line-height: 30px;
+
+
+}
+
+#tribute-link {
+
+    display: flex;
+    justify-content: center;
+
+
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+
+    font-size: 15px;
+    font-family: Gill Sans, sans-serif;
+
+    line-height: 30px;
+
+}
